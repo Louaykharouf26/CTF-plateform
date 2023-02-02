@@ -1,0 +1,263 @@
+.imgwlcme{
+    height: 50px;
+    weight:50px;
+}
+.navigation{
+    background-color: gray;
+}
+.nav-link{
+    color: white;
+    font-family: Poppins;
+    font-weight: 600;
+font-size: 19px;
+line-height: 36px;
+}
+.count{
+    position: absolute;
+    weight:500px;
+    font-size: 60px;
+    font-family: Poppins;
+    top:75%;
+    left: 15%;
+}
+#demo{
+    position: absolute;
+    font-weight: bold;
+    font-size: 60px;
+    font-family: Poppins;
+    left: 35%;
+    top:90%;
+}
+.ctfpng{
+    position: absolute;
+    height: 250px;
+    weight:250px;
+    top:30%;
+    left:35%;
+}
+.welcome{
+    position: absolute;
+    weight:500px;
+    font-size: 60px;
+    font-family: Poppins;
+    text-align: center;
+    top:15%;
+    left: 30%;
+}
+.discord{
+    position: absolute;
+    weight:500px;
+    font-size: 60px;
+    font-family: Poppins;
+    text-align: center;
+    top:110%;
+    left: 30%;
+}
+.register{
+    background-color: grey;
+    font-size: 60px;
+    font-family: Poppins;
+    text-align: center;
+}
+.cjteam{
+    position: absolute;
+    left: 25%;
+    top:35%;
+    font-family: 'Cairo';
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 66px;
+}
+.boutons{
+    position: absolute;
+    left: 45%;
+    top: 50%;
+}
+#email{
+    box-sizing: border-box;
+
+
+    width: 581px;
+    height: 60px;
+
+background: #FFFFFF;
+border: 1px solid;
+border-radius: 4px;
+}
+.login,.signup{
+    position: absolute;
+    left: 30%;
+}
+.remember{
+    position: absolute;
+    left:-6%;
+}
+.rememberme{
+    width: 150px;
+}
+.passreset{
+    position: absolute;
+    left:65%;
+  top: 65%;
+  
+}
+#password{
+    box-sizing: border-box;
+
+
+    width: 581px;
+    height: 60px;
+    
+    background: #FFFFFF;
+    border: 1px solid;
+    border-radius: 4px;
+}
+#password-confirm , #name {
+    box-sizing: border-box;
+
+
+    width: 581px;
+    height: 60px;
+    
+    background: #FFFFFF;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+.bouton{
+  position: relative;
+  width: 581px;
+  height: 60px;
+top:55%;
+left: -52%;
+background: #144692;
+border-radius: 4px;
+font-family: 'Cairo';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 47px;
+}
+.boutonR{
+    position: relative;
+    width: 581px;
+    height: 60px;
+  top:20%;
+  left: -72%;
+  background: #144692;
+  border-radius: 4px;
+  font-family: 'Cairo';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 47px;
+}
+/*TYPEWRITER */
+.typewriter  {
+    position: relative;
+    left: 10%;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 5 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+      font-family: 'Cairo';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 47px;
+     
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+  .taskname{
+position: relative;
+left: 4%;
+width: 150px;
+height: 100px;
+border: none;
+font-family: 'Cairo';
+font-style: normal;
+font-size: 20px;
+line-height: 47px;
+background-color: #808080;
+box-shadow: 0px 4px 5px 5px rgba(176, 176, 176, 0.25);
+border-radius: 8px;
+  }
+  .category{
+    position: relative;
+left: 2%;
+    font-size: 30px;
+    font-family: Poppins;
+  
+}
+
+.task{
+     position: relative;
+     left: 40%;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+line-height: 52px;
+/* identical to box height */
+
+color: #35363A;
+}
+#answer {
+    position: absolute;
+    left: 2%;
+    width: 363px;
+    height: 43px;
+   
+    background: #FFFFFF;
+    border-radius: 5px;
+  }
+  .submitbtn {
+    
+border: none;
+font-family: 'Cairo';
+font-style: normal;
+font-size: 20px;
+line-height: 47px;
+background-color: #808080;
+box-shadow: 0px 4px 5px 5px rgba(176, 176, 176, 0.25);
+border-radius: 8px;
+  }
+ .team{ 
+text-decoration: none;
+color: #35363A;
+ }
+    .logo {
+        font-size: 30px;
+        margin: 0;
+        padding: 0;
+        line-height: 1;
+        font-size: 25px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-family: "Poppins", sans-serif;
+        color: white;
+        max-height: 40px;
+        text-decoration: none;
+      }
+      .logo:hover{color: white;}
+  
+  .team:hover{
+    color: #35363A;
+  }
