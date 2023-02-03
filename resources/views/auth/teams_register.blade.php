@@ -14,18 +14,18 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Create Team') }}</div>
+           
+                <p class=" typewriter">{{ __('Here you can Create a Team') }}</p>
 
-                <div class="card-body">
+                
                     <form method="POST" action="{{ route('teams.register.create') }}">
                         @csrf
 
                         <div class="row mb-3">
-                            <label for="name" class="col-md-4 col-form-label text-md-end">{{ __('TeamName') }}</label>
+              
 
                             <div class="col-md-6">
-                                <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
+                                <input id="name" type="text" placeholder="Teamname" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
 
                                 @error('name')
                                     <span class="invalid-feedback" role="alert">
@@ -35,17 +35,15 @@
                             </div>
                         </div>
                         <div class="row mb-3">
-                            <label for="university" class="col-md-4 col-form-label text-md-end">{{ __('University (optional)') }}</label>
 
                             <div class="col-md-6">
-                                <input id="university" type="text" class="form-control " name="university" value="{{ old('university') }}"  autocomplete="name" autofocus>
+                                <input id="university" type="text" placeholder="University (optional)" class="form-control " name="university" value="{{ old('university') }}"  autocomplete="name" autofocus>
                             </div>
                         </div>
                         <div class="row mb-3">
-                            <label for="city" class="col-md-4 col-form-label text-md-end">{{ __('City (optional)') }}</label>
 
                             <div class="col-md-6">
-                                <input id="city" type="text" class="form-control " name="city" value="{{ old('city') }}"  autocomplete="name" autofocus>
+                                <input id="city" type="text" placeholder="City (optional)" class="form-control " name="city" value="{{ old('city') }}"  autocomplete="name" autofocus>
                             </div>
                         </div>
 
@@ -64,10 +62,9 @@
                         </div>
 -->
                         <div class="row mb-3">
-                            <label for="password" class="col-md-4 col-form-label text-md-end">{{ __('Password') }}</label>
 
                             <div class="col-md-6">
-                                <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
+                                <input id="password" placeholder="Password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
 
                                 @error('password')
                                     <span class="invalid-feedback" role="alert">
@@ -78,16 +75,15 @@
                         </div>
 
                         <div class="row mb-3">
-                            <label for="password-confirm" class="col-md-4 col-form-label text-md-end">{{ __('Confirm Password') }}</label>
 
                             <div class="col-md-6">
-                                <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
+                                <input id="password-confirm" placeholder="Confirm Password" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
                             </div>
                         </div>
 
                         <div class="row mb-0">
                             <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
+                                <button type="submit" class="btn btn-primary bouton1">
                                     {{ __('Create Team') }}
                                 </button>
                             </div>

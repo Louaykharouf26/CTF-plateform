@@ -113,7 +113,7 @@ border-radius: 4px;
     border: 1px solid;
     border-radius: 4px;
 }
-#password-confirm , #name {
+#password-confirm , #name  ,#university,#city,#password{
     box-sizing: border-box;
 
 
@@ -138,6 +138,34 @@ font-style: normal;
 font-weight: 700;
 font-size: 25px;
 line-height: 47px;
+}
+.bouton1{
+    position: absolute;
+    width: 581px;
+    height: 60px;
+  top:99%;
+  left: 23%;
+  background: #144692;
+  border-radius: 4px;
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 47px;
+}
+.bouton2{
+    position: relative;
+    width: 581px;
+    height: 60px;
+  top:55%;
+  left:0%;
+  background: #144692;
+  border-radius: 4px;
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 47px;
 }
 .boutonR{
     position: relative;

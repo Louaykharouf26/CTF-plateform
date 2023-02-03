@@ -14,24 +14,23 @@
     <div class="container">
       <div class="row justify-content-center mt-4">
           <div class="col-md-4">
-            <div class="card">
-              <div class="card-body">
+            
                 <form id="sign_in_adm" method="POST" action="{{ route('teams.login.submit') }}">
                   {{ csrf_field() }}
-                <h1>Join a Team </h1>
+                <h1 class="typewriter">Login to Join a Team </h1>
                 <div >
-                  <input type="text" name=email class="form-control" placeholder="Team Name"  required autofocus>
+                  <input id="name" type="text" name=email class="form-control" placeholder="TeamName"  required autofocus>
                 </div>
                 @if ($errors->has('email'))
                 <span ><strong>{{ $errors->first('email') }}</strong></span>
                 @endif
                 <br>
                 <div >
-                  <input type="password" name="password" class="form-control" required>
+                  <input id="password" type="password" name="password" class="form-control" required>
                 </div>
                 <br>
                 <div >
-                  <button type="submit" class="btn btn-primary">Join Team</button>
+                  <button type="submit" class="btn btn-primary bouton2">Join Team</button>
                 </div>
                 </form>
               </div>
